@@ -7,7 +7,7 @@ export default function App() {
       <Navbar />
       <main>
         <div id="home">
-          <Home/>
+          <Slider></Slider>
         </div>
       </main>
     </div>
