@@ -10,21 +10,21 @@ const FadeExample = () => {
     <div>
         <Fade autoplay={true} duration={1500} transitionDuration={3000} onChange={function noRefCheck(){}}
   onStartChange={function noRefCheck(){}}>
-            <div className="each-slide h-screen w-screen">
+            <div className="each-slide ">
             <div>
-                <img src={bmw_car} />
+                <img src={bmw_car} className='h-screen w-screen max-md:object-contain'/>
             </div>
             
             </div>
-            <div className="each-slide h-screen w-screen">
+            <div className="each-slide ">
             
             <div>
-                <img src={benz_full} />
+                <img src={benz_full} className='h-screen w-screen'/>
             </div>
             </div>
-            <div className="each-slide h-screen w-screen">
+            <div className="each-slide ">
             <div>
-            <img src={audi_blue} />
+            <img src={audi_blue} className='h-screen w-screen '/>
             </div>
             
             </div>
