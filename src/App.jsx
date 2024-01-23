@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Slider from "./components/Slider"
 import SliderCopy from "./components/SliderCopy"
+import Brands from "./components/Brands"
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
 
         <div id="brands">
 
-          
+          <Brands/>
 
         </div>
 
