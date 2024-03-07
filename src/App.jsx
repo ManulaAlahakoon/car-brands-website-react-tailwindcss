@@ -5,6 +5,7 @@ import SliderCopy from "./components/SliderCopy"
 import Brands from "./components/Brands"
 import Model from "./components/Model";
 import Wonder from "./components/Wonder"
+import Footer from "./components/Footer"
 
 export default function App() {
   return (
@@ -34,6 +35,10 @@ export default function App() {
 
         <div id="wonder">
           <Wonder/>
+        </div>
+
+        <div>
+          <Footer></Footer>
         </div>
 
       </main>
